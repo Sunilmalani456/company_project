@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&family=Dancing+Script:wght@400;500;600;700&family=EB+Garamond:wght@400;500;600;700;800&family=Genos:ital,wght@0,500;0,900;1,300;1,400;1,600;1,700;1,800;1,900&family=Julee&family=Montserrat:wght@200;400;500;600;700;800&family=Rubik+Wet+Paint&display=swap');
+@import 'react-date-range/dist/styles.css';
+@import 'react-date-range/dist/theme/default.css';
+*{
+    font-family: montserrat;
+    margin: 0;
+    padding:0;
+    scroll-behavior: smooth;
+    cursor: pointer;
+}
+body{
+    font-family: montserrat;
+}
+a{
+    color:white
+}
+.upi{
+    height:100vh;
+}
+#logo1{
+    width:8rem;
+    padding:10px;
+    margin-left: 2rem;
+}
+
+.back{
+    background: linear-gradient(to top right ,#5eaff7 50% , #3998ed 50% );
+    box-shadow: 0px 0px 9px 3px white;
+    height:100vh;
+    /* position: fixed; */
+}
+
+
+
+.back2{
+    /* background: url("/public/3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:100vh; */
+}
+
+.formControl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#hover1:hover{
+    box-shadow: 0px 0px 9px 1px  #005b03;
+}
+
+.typo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.select{
+    
+    height:100vh; 
+    background-blend-mode: darken;
+}
+
+
+
+/* .compo{
+    background-color: rgb(84, 165, 246);
+    border-radius:15%;
+    margin-top:3rem;
+    width:100;
+} */
+
+#neftlogo{
+       width:20rem;
+    float:right;
+    padding:0rem;
+    margin-right: 4rem;
+    margin-top: 1rem;
+}
+
+.form1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 3rem;
+    position: relative;
+    background-color: #ffffff93;
+    padding: 3rem;
+    border-radius: 1rem;
+    
+}
+
+
+
+#link{
+    text-decoration: none;
+}
+
+.upi2{
+    background: url("https://img.freepik.com/free-vector/hand-painted-watercolor-nature-background_23-2148941599.jpg?w=826&t=st=1675502905~exp=1675503505~hmac=d2521afc5daef7c7d401312b5aae77ccb3d2c4e899d5b670c1da43296cd6a3c7 ");
+    background-size: cover;
+    height: 100vh;
+}
+
+.back4{
+    height:100rem;
+    width:100%;
+    border-radius:40%;
+    position: fixed;
+    margin-top:3rem;
+}
+
+.upi3{
+    background: url("https://img.freepik.com/free-photo/landscape-morning-fog-mountains-sunrise_335224-793.jpg?w=826&t=st=1675511902~exp=1675512502~hmac=dea7cfbee516ca8671e3fba018756956dfc7f347deaf187e8a57228bd5481fb2");
+    background-size: cover;
+    height: 100vh;
+}
+
+#hover2:hover{
+    box-shadow: 0px 0px 9px 1px  #a4caff;
+}
+
+#logo2{
+    width:13rem;
+    padding:10px;
+    margin-left: 2rem;
+}
+
+.form2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 3rem;
+    position: relative;
+    background-color: #06060693;
+    padding: 3rem;
+    border-radius: 1rem;
+    margin-top:-1rem;
+}
+
+.paymentBack{
+    background:rgba(0, 0, 0, 0.527) url("/public/payment.jpg")no-repeat;
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center center;
+    min-height:80vh;
+    min-width:100%;
+    background-attachment: fixed;
+   
+}
+
+.payment{
+     display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+
+
+.stokeText{
+    font-family: montserrat;
+    font-weight:600;
+    font-size:3.5rem;
+    text-transform: capitalize;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:white;
+    color:transparent;
+}
+
+.simple{
+    font-family: montserrat;
+    font-weight:600;
+    text-transform: capitalize;
+    margin-top: 2rem;
+    color:white
+}
+
+.fade-appear,
+.fade-enter {
+opacity: 0;
+z-index: 1;
+}
+.fade-appear-active,
+.fade-enter.fade-enter-active {
+opacity: 1;
+transition: opacity 450ms linear 250ms;
+}
+.fade-exit {
+opacity: 1;
+}
+.fade-exit.fade-exit-active {
+opacity: 0;
+transition: opacity 150ms linear;
+}
+
+.manageHeaders{
+    display:flex;
+    align-items: center;
+}
+
+.noPage{
+    height:100vh;
+    /* background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTercO_06TI8IAIRWaOieIv7maENZqK6xdI-A&usqp=CAU")no-repeat; */
+    background-position:center center;
+    background-size: cover;
+    text-align: center;
+    background-color: rgba(57, 140, 243, 0.835);
+}
+
+.trans{
+    /* background: rgba(0, 0, 0, 0.493) url("https://wallpapers.com/images/hd/stack-of-dark-colored-credit-cards-8kh9jkmkkurlact3.jpg")no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height:100%;
+    background-blend-mode: darken; */
+    /* display:flex;
+    align-items: center;
+    justify-content: center; */
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 5rem;
+    grid-row-gap: 3rem;
+}
+.zzz{
+    display:flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    background: url("../public/credit.png") no-repeat;
+    background-size: contain;
+    margin-top: 10rem;
+    width:100%;
+    height:15.5rem;
+}
+
+.transPaper{
+    color:#0000005c;
+    background-color: transparent;
+}
+
+.rdrDefinedRangesWrapper {
+    display: none;
+  }
+  .tableRow:hover{
+    background-color: #41a1e684;
+  }
+
+  .kalakaar{
+    background: linear-gradient(to top right ,#5eaff7 50% , #3998ed 50% );
+  }
+  /* #5eaff7; */
+
+.notFound{
+    background: linear-gradient(25deg, #6e6e6e 50% , #000000 50%);
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.pagenot{
+    -webkit-text-stroke: 1px black;
+}
+
+.react-daterangepicker{
+    font-family: montserrat;
+    font-weight:800;
+
+}
+.rdrDayNumber span {
+    color: #000000;
+    font-weight: 450;
+}
+

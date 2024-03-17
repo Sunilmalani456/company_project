@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/DMT/static/css/main.62c85f67.css",
+    "main.js": "/DMT/static/js/main.939cafe5.js",
+    "static/js/787.69eb7375.chunk.js": "/DMT/static/js/787.69eb7375.chunk.js",
+    "static/media/3.png": "/DMT/static/media/3.19d966b7dd67099eabb9.png",
+    "static/media/payment.jpg": "/DMT/static/media/payment.f3f92479da4f6f4af80c.jpg",
+    "static/media/2879845.jpg": "/DMT/static/media/2879845.05b7607cf114be0d06a0.jpg",
+    "static/media/2903544.jpg": "/DMT/static/media/2903544.4ed41c1513feb7504234.jpg",
+    "static/media/4137379.jpg": "/DMT/static/media/4137379.8f2b7a3b21c1c3bd1a27.jpg",
+    "static/media/eezib.png": "/DMT/static/media/eezib.43c58dbcd5e2aae79d1a.png",
+    "static/media/upi.jpg": "/DMT/static/media/upi.0b37922c2a053eef152b.jpg",
+    "static/media/imps.png": "/DMT/static/media/imps.d131e7d824308f58ecfe.png",
+    "static/media/eezib2.png": "/DMT/static/media/eezib2.5581316f2dc5d9a22917.png",
+    "static/media/neft.webp": "/DMT/static/media/neft.450dbc255889f182aaec.webp",
+    "index.html": "/DMT/index.html",
+    "main.62c85f67.css.map": "/DMT/static/css/main.62c85f67.css.map",
+    "main.939cafe5.js.map": "/DMT/static/js/main.939cafe5.js.map",
+    "787.69eb7375.chunk.js.map": "/DMT/static/js/787.69eb7375.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62c85f67.css",
+    "static/js/main.939cafe5.js"
+  ]
+}
